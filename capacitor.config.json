@@ -1,0 +1,11 @@
+{
+  "appId": "com.trenmaxxing.app",
+  "appName": "ТренMaxxing",
+  "webDir": "www",
+  "backgroundColor": "#0a0a0a",
+  "android": { "backgroundColor": "#0a0a0a" },
+  "plugins": {
+    "CapacitorHttp": { "enabled": true },
+    "StatusBar": { "style": "DARK", "backgroundColor": "#0a0a0a", "overlaysWebContent": false }
+  }
+}

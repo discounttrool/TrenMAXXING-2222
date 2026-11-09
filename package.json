@@ -1,0 +1,22 @@
+{
+  "name": "trenmaxxing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ТренMaxxing — тренировки и питание",
+  "scripts": {
+    "android:add": "cap add android",
+    "assets": "capacitor-assets generate --android",
+    "sync": "cap sync android",
+    "apk": "cd android && ./gradlew assembleDebug",
+    "open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/status-bar": "^6.0.2"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0"
+  }
+}
